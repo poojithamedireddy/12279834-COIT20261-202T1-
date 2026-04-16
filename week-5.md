@@ -16,7 +16,7 @@ Hosts are connected to different switch ports and assigned to VLANs.
 ![Network](Vlan-Basics-<studentid>-network.png)
 
 ###  VLAN Port Configuration
-![Ports](Vlan-Basics-<studentid>-ports.png)
+![Ports](images/week5-switch 1.png)
 
 ## VLAN Configuration
 

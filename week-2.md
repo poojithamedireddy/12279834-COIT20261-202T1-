@@ -1,3 +1,4 @@
+##Task-1
 
 ![GitHub Screenshot Demo](images/week2-project.png)
 ![GitHub Screenshot Demo](images/week2-host2.png)
@@ -36,6 +37,8 @@
 - The switch forwards the packet to the correct destination host
 - If the destination IP exists, a reply is received
 - If the IP does not exist, the request times out (packet loss)
+
+## Task-2
 
 ## Explanation of Ping Results
 ![GitHub Screenshot Demo](images/week2-count.png)

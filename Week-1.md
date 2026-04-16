@@ -20,3 +20,5 @@
 - Exported the project as **.gns3project** file.
 - Ensured all required files and screenshots are ready for submission.
 - Learned basic GNS3 setup and Linux network configuration.
+
+ ![exportedfile](images/12279834-week1.gns3project)

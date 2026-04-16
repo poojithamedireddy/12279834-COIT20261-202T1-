@@ -35,3 +35,4 @@ ovs-vsctl set port eth5 trunks=34,35
 
 # Task - 2
 ![Network](images/week5-task2networkdiagram.png)
+![Network](images/week5-networkstwitch.png)

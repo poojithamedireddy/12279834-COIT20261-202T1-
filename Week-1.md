@@ -1,2 +1,2 @@
 # Task 1 -
-![(images/week1-networkingdiagram.png)
+![GitHub Screenshot Demo](images/week1-networkingdiagram.png)

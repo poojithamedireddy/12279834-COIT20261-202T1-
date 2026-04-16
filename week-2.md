@@ -1,11 +1,10 @@
 
 ![GitHub Screenshot Demo](images/week2-project.png)
-![GitHub Screenshot Demo](images/week2-count.png)
 ![GitHub Screenshot Demo](images/week2-host2.png)
 ![GitHub Screenshot Demo](images/week2-host3.png)
 ![GitHub Screenshot Demo](images/week2-host4.png)
 ## Explanation of Ping Results
-
+![GitHub Screenshot Demo](images/week2-count.png)
 ### 1. Simple Ping (Default)
 - Command used: `ping 10.1.1.3`
 - Tests basic connectivity between two hosts

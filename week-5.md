@@ -13,11 +13,11 @@ The topology consists of:
 Hosts are connected to different switch ports and assigned to VLANs.
 
 ### Network Topology
-![Network](Vlan-Basics-<studentid>-network.png)
+![Network](images/week5-switch2.png)
 
 ###  VLAN Port Configuration
 ![Ports](images/week5-switch1.png)
-
+![Network](images/week5-switch2.png)
 ## VLAN Configuration
 
 The following commands were used on the switch:

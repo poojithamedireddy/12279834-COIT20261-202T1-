@@ -1,5 +1,5 @@
 
-![GitHub Screenshot Demo](images/week 2 - project .png)
+![GitHub Screenshot Demo](images/week2-project.png)
 
 ## Explanation of Ping Results
 

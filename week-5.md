@@ -1,4 +1,4 @@
-# VLAN Basics Lab (GNS3)
+# Task-1
 
 ## Overview
 This project demonstrates basic VLAN configuration using a switch in GNS3.  
@@ -13,7 +13,7 @@ The topology consists of:
 Hosts are connected to different switch ports and assigned to VLANs.
 
 ### Network Topology
-![Network](images/week5-switch2.png)
+![Network](images/week5.png)
 
 ###  VLAN Port Configuration
 ![Ports](images/week5-switch1.png)
@@ -32,3 +32,5 @@ ovs-vsctl set port eth4 tag=35
 
 # (Optional trunk port if needed)
 ovs-vsctl set port eth5 trunks=34,35
+
+# Task - 2

@@ -1,1 +1,25 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Explanation of Ping Results
+
+In this lab, the ping command was used to test network connectivity between hosts in the same subnet. First, a simple ping command (`ping 10.1.1.3`) was executed to verify basic communication. The output showed successful replies from the destination host, including details such as the sequence number (icmp_seq), time-to-live (ttl=64), and round-trip time (very low in milliseconds). The summary indicated that all transmitted packets were received with 0% packet loss, confirming that the network connection is functioning correctly.
+
+Next, a ping was attempted to an incorrect IP address (`ping 10.1.1.99`). Since no device was assigned to this IP, no replies were received. The output showed 100% packet loss, indicating that the destination host was unreachable. This demonstrates how ping can be used to detect configuration errors or unavailable devices in a network.
+
+Finally, the ping command was executed with additional options (`ping -c 100 -s 100 -i 0.2 10.1.1.3`) to analyze network performance under different conditions. In this case, 100 packets were sent with a larger packet size and shorter interval between transmissions. The results showed that all packets were successfully received with no packet loss, indicating that the network is stable and capable of handling increased traffic load.
+
+Overall, the ping utility is an essential tool for testing connectivity, identifying network issues, and evaluating performance. Successful responses confirm proper communication between devices, while packet loss helps identify potential problems in the network.

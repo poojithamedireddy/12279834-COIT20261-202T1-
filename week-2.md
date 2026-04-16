@@ -3,6 +3,40 @@
 ![GitHub Screenshot Demo](images/week2-host2.png)
 ![GitHub Screenshot Demo](images/week2-host3.png)
 ![GitHub Screenshot Demo](images/week2-host4.png)
+## Network Diagram Explanation
+
+- The network consists of **4 hosts (PCs)** connected through a **central switch**
+- The switch acts as an intermediary device that allows all hosts to communicate
+- All hosts are in the same Local Area Network (LAN)
+- The topology used is a **star topology**, where each host connects directly to the switch
+- This setup ensures efficient communication between devices within the network
+
+## IP Addressing Scheme
+
+- The network uses the subnet: **10.1.1.0/24**
+- Subnet mask: **255.255.255.0**
+- All hosts belong to the same network, allowing direct communication
+
+### Assigned IP Addresses:
+- Host1 → 10.1.1.1
+- Host2 → 10.1.1.2
+- Host3 → 10.1.1.3
+- Host4 → 10.1.1.4
+
+## Explanation of IP Addressing
+
+- Each host is assigned a **unique IP address**
+- The first three octets (**10.1.1**) represent the **network portion**
+- The last octet (1, 2, 3, 4) represents the **host portion**
+- Since all devices share the same network portion, they can communicate directly without a router
+
+## Communication in the Network
+
+- When one host sends data (e.g., using ping), the packet is sent to the switch
+- The switch forwards the packet to the correct destination host
+- If the destination IP exists, a reply is received
+- If the IP does not exist, the request times out (packet loss)
+
 ## Explanation of Ping Results
 ![GitHub Screenshot Demo](images/week2-count.png)
 ### 1. Simple Ping (Default)
@@ -46,6 +80,9 @@
   - Can handle increased traffic without issues
 
 ### Overall Conclusion
+- The network is correctly configured within a single subnet
+- The switch enables communication between all hosts
+- Proper IP addressing ensures successful connectivity
 - Ping is used to test network connectivity
 - Successful replies indicate a working network
 - Packet loss indicates network problems

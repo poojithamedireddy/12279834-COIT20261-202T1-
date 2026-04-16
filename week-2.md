@@ -2,6 +2,7 @@
 ![GitHub Screenshot Demo](images/week2-project.png)
 ![GitHub Screenshot Demo](images/week2-count.png)
 images/week2-host2.png
+images/week2-host 3.png
 ## Explanation of Ping Results
 
 ### 1. Simple Ping (Default)

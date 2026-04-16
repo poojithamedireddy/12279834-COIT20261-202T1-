@@ -36,3 +36,17 @@ ovs-vsctl set port eth5 trunks=34,35
 # Task - 2
 ![Network](images/week5-task2networkdiagram.png)
 ![Network](images/week5-networkstwitch.png)
+
+## Overview
+This project demonstrates VLAN configuration and inter-VLAN routing using OpenvSwitch and a router in GNS3.  
+The network includes 4 hosts connected to a switch and 1 router performing routing between VLANs.
+
+### Components
+- **Hosts:** Host1, Host2, Host3, Host4
+- **Switch:** Open vSwitch (Switch1)
+- **Router:** Router1 for inter-VLAN routing
+## VLAN Configuration
+The following VLANs were planned:
+- VLAN 34 → Ports: `eth1`, `eth3`
+- VLAN 35 → Ports: `eth2`, `eth4`
+- Trunk Port → `eth5` to Router1

@@ -66,7 +66,7 @@ Another key takeaway is the role of broadcasts in ARP. When Host A needed to fin
 I also noticed that once an ARP entry is created, subsequent communication becomes more efficient because the MAC address is already known. This reduces network overhead and improves performance.
 
 ## task -2
-![Network](images/week 6 - task 2.png)
+![Network](images/week6-task2.png)
 
 ### Left LAN (192.168.0.0/24)
 | Device  | IP Address   | Default Gateway |
@@ -119,7 +119,7 @@ ping 192.168.1.2
   - Left LAN - 192.168.0.1
   - Right LAN - 192.168.1.1
 
-##Reflection
+## Reflection
 
 During this lab, I initially configured the same default gateway (192.168.0.1) for all hosts, but this caused communication issues for devices in the 192.168.1.0 network. This helped me realize that a default gateway must always belong to the same subnet as the host.
 

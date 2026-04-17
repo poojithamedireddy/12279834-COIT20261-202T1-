@@ -31,6 +31,7 @@ eth3 - connected to Host3 network
 
 ## 5. Ping Test (Successful)
 # ping -c 3 192.168.0.2
+![Network](images/week4-pingconnection.png)
 
 PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
 64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=1.52 ms

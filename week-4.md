@@ -12,6 +12,7 @@
 ## 3 IP Addressing and Interfaces
 ![Network](images/week4-host1.png)
 ## Host2
+![Network](images/week-4host2.png)
 IP Address: 192.168.0.2/24
 Interface: eth0
 

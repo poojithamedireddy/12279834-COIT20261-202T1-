@@ -1,3 +1,4 @@
+# Task -1
 
 ## Networking Diagram
 
@@ -41,14 +42,15 @@ PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
 192.168.0.2 ping statistics
 Result: Successful communication between hosts.
 
+# Task -2
 ## 6. Netcat Communication Test
 ![Network](images/week4-ping.png)
+![Network](images/week4-wiresherk.png)
 
 Hi
 I am a client
 sending from server
 sending again from the client
-bye
 
 ## 7. Packet Capture (Wireshark Analysis)
 
@@ -78,6 +80,7 @@ bye
 | R3     | Network A  | R1       |
 
 ## Reflection
+
 This lab provided practical experience in configuring and analyzing basic network communication and dynamic routing using GNS3.
 
 During the View Routes section, I learned how to inspect IP configurations using `ip addr` and verify connectivity using `ping`. The successful communication between Host1 and Host2 confirmed correct Layer 2 and Layer 3 configuration within the same subnet. Using `netcat` helped demonstrate how TCP connections are established and used for real data transfer, while Wireshark allowed me to observe the TCP three-way handshake, data exchange, and proper connection termination (FIN/ACK). This reinforced my understanding of how transport layer protocols operate in real networks.

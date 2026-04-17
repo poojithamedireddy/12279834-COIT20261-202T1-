@@ -1,6 +1,7 @@
 # Task 1-Introduction to GNS3 Basics
+# Networking Diagram
 ![GitHub Screenshot Demo](images/week1-networkingdiagram.png)
-
+# IP Address 
 ![GitHub Screenshot Demo](images/week1-networkipaddress.png)
 
 - ## GNS3 Week 1 Activity Summary
@@ -13,7 +14,7 @@
 - Configured static IP using `/etc/network/interfaces` file before starting the node.
 - Started the Host1 node successfully.
 - Opened the web console in a new tab.
-- Verified IP address using `ip a` command in the console.
+- Verified IP address using ip a command in the console.
 - Confirmed that the system successfully received the configured static IP.
 - Captured screenshot of network topology.
 - Captured screenshot of IP address in console.
@@ -21,4 +22,4 @@
 - Ensured all required files and screenshots are ready for submission.
 - Learned basic GNS3 setup and Linux network configuration.
 
- ![exportedfile](images/12279834-week1.gns3project)
+ ![exportedfile](file/12279834-week1.gns3project)

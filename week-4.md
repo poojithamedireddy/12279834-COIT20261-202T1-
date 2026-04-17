@@ -1,5 +1,5 @@
 
-##Network Topology
+##Networking Diagram
 
 ![Network](images/week4-networkdiagram.png)
 

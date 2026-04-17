@@ -1,7 +1,7 @@
 
 ##Network Topology
 
-![Network Topology](View-Routes-<studentid>-network.png)
+![Network](images/week4-networkdiagram.png)
 
 ## Topology Description
 - Host1 (192.168.0.1) connected to Switch1

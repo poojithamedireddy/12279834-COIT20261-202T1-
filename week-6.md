@@ -127,6 +127,6 @@ After correcting the gateway for Host3 and Host4 to 192.168.1.1, the network sta
 
 I also learned that routers act as intermediaries between networks, and without correct routing and gateway settings, devices cannot communicate across subnets.
 
-
+![Network](images/12279834-defult gateway.gns3project)
 
 

@@ -42,7 +42,7 @@ PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
 Result: Successful communication between hosts.
 
 ## 6. Netcat Communication Test
-
+![Network](images/week4-ping.png)
 
 Hi
 I am a client

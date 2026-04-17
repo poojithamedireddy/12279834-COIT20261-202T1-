@@ -43,7 +43,6 @@ Result: Successful communication between hosts.
 
 ## 6. Netcat Communication Test
 
-# nc 192.168.0.2 5555
 
 Hi
 I am a client

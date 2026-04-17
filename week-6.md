@@ -65,9 +65,8 @@ Another key takeaway is the role of broadcasts in ARP. When Host A needed to fin
 
 I also noticed that once an ARP entry is created, subsequent communication becomes more efficient because the MAC address is already known. This reduces network overhead and improves performance.
 
-
-
 ## task -2
+![Network](images/week 6 - task 2.png)
 
 ### Left LAN (192.168.0.0/24)
 | Device  | IP Address   | Default Gateway |

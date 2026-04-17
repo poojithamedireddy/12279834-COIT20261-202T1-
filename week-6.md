@@ -1,11 +1,11 @@
 # Task 1 
+Networking Diagrama
 
 ![Network](images/week6-task1nwd.png)
 ##  Network Topology
 - Four hosts: A, B, C, D
 - Connected via a Layer 2 switch
 - Same subnet: `192.168.0.0/24`
-
 
 ##  Commands Used
 ip addr show

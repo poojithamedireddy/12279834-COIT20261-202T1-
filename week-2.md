@@ -42,6 +42,7 @@
 
 ## Explanation of Ping Results
 ![GitHub Screenshot Demo](images/week2-count.png)
+
 ### 1. Simple Ping (Default)
 - Command used: `ping 10.1.1.3`
 - Tests basic connectivity between two hosts

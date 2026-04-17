@@ -1,6 +1,7 @@
 ## Task-1
-
+# Network Diagram
 ![GitHub Screenshot Demo](images/week2-project.png)
+# IP Address configuration
 ![GitHub Screenshot Demo](images/week2-host2.png)
 ![GitHub Screenshot Demo](images/week2-host3.png)
 ![GitHub Screenshot Demo](images/week2-host4.png)
@@ -19,10 +20,10 @@
 - All hosts belong to the same network, allowing direct communication
 
 ### Assigned IP Addresses:
-- Host1 → 10.1.1.1
-- Host2 → 10.1.1.2
-- Host3 → 10.1.1.3
-- Host4 → 10.1.1.4
+- Host1 - 10.1.1.1
+- Host2 - 10.1.1.2
+- Host3 - 10.1.1.3
+- Host4 - 10.1.1.4
 
 ## Explanation of IP Addressing
 
@@ -44,12 +45,12 @@
 ![GitHub Screenshot Demo](images/week2-count.png)
 
 ### 1. Simple Ping (Default)
-- Command used: `ping 10.1.1.3`
+- Command used: ping 10.1.1.3
 - Tests basic connectivity between two hosts
 - Each reply shows:
-  - `icmp_seq` → packet sequence number
-  - `ttl=64` → normal value for local network
-  - `time` → round-trip delay (very low = fast connection)
+  - icmp_seq- packet sequence number
+  - ttl=64 - normal value for local network
+  - time - round-trip delay (very low = fast connection)
 - Result:
   - All packets sent were received
   - 0% packet loss
@@ -59,7 +60,7 @@
 ---
 
 ### 2. Ping to Wrong IP Address
-- Command used: `ping 10.1.1.99`
+- Command used: ping 10.1.1.99
 - IP address does not exist in the network
 - Result:
   - No replies received
@@ -71,11 +72,11 @@
 ---
 
 ### 3. Ping with Options
-- Command used: `ping -c 100 -s 100 -i 0.2 10.1.1.3`
+- Command used: ping -c 100 -s 100 -i 0.2 10.1.1.3
 - Options used:
-  - `-c 100` → send 100 packets
-  - `-s 100` → increase packet size
-  - `-i 0.2` → send packets every 0.2 seconds
+  - -c 100 - send 100 packets
+  - -s 100 - increase packet size
+  - -i 0.2 - send packets every 0.2 seconds
 - Result:
   - All 100 packets received
   - 0% packet loss

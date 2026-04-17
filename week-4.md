@@ -10,6 +10,7 @@
 - Router1 connected to Host3
   
 ## 3 IP Addressing and Interfaces
+![Network](images/week4-host1.png)
 ## Host2
 IP Address: 192.168.0.2/24
 Interface: eth0

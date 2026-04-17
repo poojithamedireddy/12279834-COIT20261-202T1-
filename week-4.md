@@ -84,3 +84,5 @@ sending again from the client
 This lab provided practical experience in configuring and analyzing basic network communication and dynamic routing using GNS3.
 
 During the View Routes section, I learned how to inspect IP configurations using `ip addr` and verify connectivity using `ping`. The successful communication between Host1 and Host2 confirmed correct Layer 2 and Layer 3 configuration within the same subnet. Using `netcat` helped demonstrate how TCP connections are established and used for real data transfer, while Wireshark allowed me to observe the TCP three-way handshake, data exchange, and proper connection termination (FIN/ACK). This reinforced my understanding of how transport layer protocols operate in real networks.
+
+![Network](images/vlan-12279834.gns3project)

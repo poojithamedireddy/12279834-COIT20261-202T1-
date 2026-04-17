@@ -1,7 +1,9 @@
 # Task 1 
-Networking Diagrama
+Networking Diagram
 
 ![Network](images/week6-task1nwd.png)
+![Network](images/week6-hosta.png)
+
 ##  Network Topology
 - Four hosts: A, B, C, D
 - Connected via a Layer 2 switch
